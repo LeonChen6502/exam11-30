@@ -13,7 +13,7 @@ int main(){
     int sum=0;
     for(int i=2;i<=10000;i++){
         if( i==d(d(i)) and i<d(i))
-            sum+=i;
+            sum+=i+d(i);
     }
     cout<<sum;
 }
